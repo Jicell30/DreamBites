@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="492-0p-Y8W">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ozt-Mc-2Kn">
+            <objects>
+                <viewController id="492-0p-Y8W" customClass="ViewController" customModule="DreamBites2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="PkC-Nv-98k">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHV-Nc-GL3">
+                                <rect key="frame" x="16" y="529" width="360" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Consumer">
+                                    <color key="baseForegroundColor" red="0.1764705926" green="0.2823529541" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="wig-hE-KDB" kind="show" id="Scf-QY-aPB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mR2-TE-Z13">
+                                <rect key="frame" x="16" y="455" width="360" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Business">
+                                    <color key="baseForegroundColor" red="0.1764705926" green="0.2823529541" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vm4-5Y-9mg" kind="show" id="V4F-em-hpW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFL-QZ-5gi">
+                                <rect key="frame" x="16" y="783" width="115" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Our Mission"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-6h-gqY">
+                                <rect key="frame" x="68" y="164" width="256" height="194"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Let's Not Waste!   Join us Share More &amp; Wate Less." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ab6-jw-Ppu">
+                                        <rect key="frame" x="30" y="27" width="197" height="141"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.75294117650000003" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Ab6-jw-Ppu" firstAttribute="leading" secondItem="A3e-6h-gqY" secondAttribute="leading" constant="30" id="Flp-yK-2UI"/>
+                                    <constraint firstItem="Ab6-jw-Ppu" firstAttribute="top" secondItem="A3e-6h-gqY" secondAttribute="top" constant="27" id="Sxo-4z-3ga"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ab6-jw-Ppu" secondAttribute="trailing" constant="29" id="YT9-a4-4Cq"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ab6-jw-Ppu" secondAttribute="bottom" constant="26" id="jjp-MB-E4a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UBm-T7-vrV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="trailing" secondItem="oHV-Nc-GL3" secondAttribute="trailing" id="1sP-Gm-IRg"/>
+                            <constraint firstItem="A3e-6h-gqY" firstAttribute="leading" secondItem="UBm-T7-vrV" secondAttribute="leading" constant="68" id="3ig-RL-KU0"/>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="top" secondItem="A3e-6h-gqY" secondAttribute="bottom" constant="97" id="NsS-7M-VNa"/>
+                            <constraint firstItem="UBm-T7-vrV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PFL-QZ-5gi" secondAttribute="trailing" symbolic="YES" id="WAV-O7-3m3"/>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="centerX" secondItem="A3e-6h-gqY" secondAttribute="centerX" id="Wtf-56-tQp"/>
+                            <constraint firstItem="oHV-Nc-GL3" firstAttribute="top" secondItem="mR2-TE-Z13" secondAttribute="bottom" constant="39" id="XcY-63-VKK"/>
+                            <constraint firstItem="A3e-6h-gqY" firstAttribute="top" secondItem="UBm-T7-vrV" secondAttribute="top" constant="105" id="h76-ta-4Pa"/>
+                            <constraint firstAttribute="bottom" secondItem="mR2-TE-Z13" secondAttribute="bottom" constant="362" id="i6n-E7-zGY"/>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="leading" secondItem="PFL-QZ-5gi" secondAttribute="leading" id="ie6-lg-8aD"/>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="leading" secondItem="PkC-Nv-98k" secondAttribute="leadingMargin" id="pBy-XQ-Swi"/>
+                            <constraint firstItem="mR2-TE-Z13" firstAttribute="leading" secondItem="oHV-Nc-GL3" secondAttribute="leading" id="qJy-bM-fuX"/>
+                            <constraint firstItem="PFL-QZ-5gi" firstAttribute="bottom" secondItem="UBm-T7-vrV" secondAttribute="bottom" id="wWY-gr-CFi"/>
+                            <constraint firstItem="UBm-T7-vrV" firstAttribute="trailing" secondItem="A3e-6h-gqY" secondAttribute="trailing" constant="69" id="zi4-pS-PJh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zd8-gi-00F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCR-0t-vC1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014.5038167938931" y="3.5211267605633805"/>
+        </scene>
+        <!--SignInView-->
+        <scene sceneID="lFx-84-r9C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignInView" id="vm4-5Y-9mg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Sh2-JV-Rw0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gkD-dc-Rcj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="-18"/>
+        </scene>
+        <!--HomeScreen-->
+        <scene sceneID="gc1-f8-X1A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeScreen" id="wig-hE-KDB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Q4A-cA-12L"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Naf-DA-i3X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853" y="29"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

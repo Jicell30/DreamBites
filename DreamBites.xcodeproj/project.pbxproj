@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB6359F2935210D005572BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6359E2935210D005572BD /* AppDelegate.swift */; };
+		5FB635A12935210D005572BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB635A02935210D005572BD /* SceneDelegate.swift */; };
+		5FB635A62935210D005572BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A42935210D005572BD /* Main.storyboard */; };
+		5FB635A82935210E005572BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A72935210E005572BD /* Assets.xcassets */; };
+		5FB635AB2935210E005572BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A92935210E005572BD /* LaunchScreen.storyboard */; };
+		5FB635B4293523BB005572BD /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B3293523BB005572BD /* HomeScreen.storyboard */; };
+		5FB635B6293524A3005572BD /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B5293524A3005572BD /* LandingPage.storyboard */; };
+		5FB635B82935253E005572BD /* BusinessView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B72935253E005572BD /* BusinessView.storyboard */; };
+		5FB635BA293525B3005572BD /* BusinessFeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */; };
+		5FB635BC29352630005572BD /* ConsumersDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */; };
+		5FB635BE29352677005572BD /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635BD29352677005572BD /* CreateAccount.storyboard */; };
+		5FB635C0293526BE005572BD /* CreatePostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635BF293526BE005572BD /* CreatePostView.storyboard */; };
+		5FB635C229352713005572BD /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635C129352713005572BD /* Settings.storyboard */; };
+		5FB635C429352766005572BD /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635C329352766005572BD /* SignInView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FB6359B2935210D005572BD /* DreamBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB6359E2935210D005572BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FB635A02935210D005572BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FB635A52935210D005572BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FB635A72935210E005572BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FB635AA2935210E005572BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FB635AC2935210E005572BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB635B3293523BB005572BD /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		5FB635B5293524A3005572BD /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
+		5FB635B72935253E005572BD /* BusinessView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessView.storyboard; sourceTree = "<group>"; };
+		5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessFeedView.storyboard; sourceTree = "<group>"; };
+		5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsumersDetailView.storyboard; sourceTree = "<group>"; };
+		5FB635BD29352677005572BD /* CreateAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		5FB635BF293526BE005572BD /* CreatePostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreatePostView.storyboard; sourceTree = "<group>"; };
+		5FB635C129352713005572BD /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		5FB635C329352766005572BD /* SignInView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInView.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB635982935210D005572BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB635922935210D005572BD = {
+			isa = PBXGroup;
+			children = (
+				5FB6359D2935210D005572BD /* DreamBites */,
+				5FB6359C2935210D005572BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB6359C2935210D005572BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6359B2935210D005572BD /* DreamBites.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB6359D2935210D005572BD /* DreamBites */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635B22935217F005572BD /* Resources */,
+				5FB635A42935210D005572BD /* Main.storyboard */,
+				5FB635B72935253E005572BD /* BusinessView.storyboard */,
+				5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */,
+				5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */,
+				5FB635BD29352677005572BD /* CreateAccount.storyboard */,
+				5FB635BF293526BE005572BD /* CreatePostView.storyboard */,
+				5FB635C129352713005572BD /* Settings.storyboard */,
+				5FB635C329352766005572BD /* SignInView.storyboard */,
+				5FB635B5293524A3005572BD /* LandingPage.storyboard */,
+				5FB635B3293523BB005572BD /* HomeScreen.storyboard */,
+				5FB635A92935210E005572BD /* LaunchScreen.storyboard */,
+			);
+			path = DreamBites;
+			sourceTree = "<group>";
+		};
+		5FB635B22935217F005572BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FB6359E2935210D005572BD /* AppDelegate.swift */,
+				5FB635A02935210D005572BD /* SceneDelegate.swift */,
+				5FB635A72935210E005572BD /* Assets.xcassets */,
+				5FB635AC2935210E005572BD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB6359A2935210D005572BD /* DreamBites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB635AF2935210E005572BD /* Build configuration list for PBXNativeTarget "DreamBites" */;
+			buildPhases = (
+				5FB635972935210D005572BD /* Sources */,
+				5FB635982935210D005572BD /* Frameworks */,
+				5FB635992935210D005572BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamBites;
+			productName = DreamBites;
+			productReference = 5FB6359B2935210D005572BD /* DreamBites.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB635932935210D005572BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5FB6359A2935210D005572BD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FB635962935210D005572BD /* Build configuration list for PBXProject "DreamBites" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB635922935210D005572BD;
+			productRefGroup = 5FB6359C2935210D005572BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB6359A2935210D005572BD /* DreamBites */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB635992935210D005572BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB635AB2935210E005572BD /* LaunchScreen.storyboard in Resources */,
+				5FB635B6293524A3005572BD /* LandingPage.storyboard in Resources */,
+				5FB635C229352713005572BD /* Settings.storyboard in Resources */,
+				5FB635C429352766005572BD /* SignInView.storyboard in Resources */,
+				5FB635BC29352630005572BD /* ConsumersDetailView.storyboard in Resources */,
+				5FB635B4293523BB005572BD /* HomeScreen.storyboard in Resources */,
+				5FB635BA293525B3005572BD /* BusinessFeedView.storyboard in Resources */,
+				5FB635B82935253E005572BD /* BusinessView.storyboard in Resources */,
+				5FB635A82935210E005572BD /* Assets.xcassets in Resources */,
+				5FB635A62935210D005572BD /* Main.storyboard in Resources */,
+				5FB635BE29352677005572BD /* CreateAccount.storyboard in Resources */,
+				5FB635C0293526BE005572BD /* CreatePostView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB635972935210D005572BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB6359F2935210D005572BD /* AppDelegate.swift in Sources */,
+				5FB635A12935210D005572BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FB635A42935210D005572BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB635A52935210D005572BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FB635A92935210E005572BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB635AA2935210E005572BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB635AD2935210E005572BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FB635AE2935210E005572BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB635B02935210E005572BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54AAP7P8JH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DreamBites/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicellcollado.DreamBites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB635B12935210E005572BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54AAP7P8JH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DreamBites/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jicellcollado.DreamBites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB635962935210D005572BD /* Build configuration list for PBXProject "DreamBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB635AD2935210E005572BD /* Debug */,
+				5FB635AE2935210E005572BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB635AF2935210E005572BD /* Build configuration list for PBXNativeTarget "DreamBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB635B02935210E005572BD /* Debug */,
+				5FB635B12935210E005572BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FB635932935210D005572BD /* Project object */;
+}
