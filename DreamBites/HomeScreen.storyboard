@@ -6,11 +6,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--List-->
         <scene sceneID="QXZ-Hq-fTE">
             <objects>
                 <navigationController id="l0O-6S-ctV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="BQ2-Xt-UM6"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list.bullet.circle" catalog="system" id="BQ2-Xt-UM6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7p-7o-gME">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -33,11 +33,11 @@
             </objects>
             <point key="canvasLocation" x="1725" y="739"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="vjf-an-Sx6">
             <objects>
                 <navigationController id="pvT-mn-im7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="2lk-3X-ocK"/>
+                    <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="2lk-3X-ocK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yhh-wJ-SBM">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -79,4 +79,8 @@
             <point key="canvasLocation" x="260" y="739"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="list.bullet.circle" catalog="system" width="128" height="123"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+    </resources>
 </document>
