@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="Ozt-Mc-2Kn">
             <objects>
-                <viewController id="492-0p-Y8W" customClass="ViewController" customModule="DreamBites2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="492-0p-Y8W" customClass="ViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="PkC-Nv-98k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3e-6h-gqY">
                                 <rect key="frame" x="68" y="164" width="256" height="194"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Let's Not Waste!   Join us Share More &amp; Wate Less." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ab6-jw-Ppu">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Let's Not Waste! Join us Share More &amp; Wate Less." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ab6-jw-Ppu">
                                         <rect key="frame" x="30" y="27" width="197" height="141"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -93,7 +93,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkD-dc-Rcj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1862" y="-18"/>
+            <point key="canvasLocation" x="1860" y="-12"/>
         </scene>
         <!--HomeScreen-->
         <scene sceneID="gc1-f8-X1A">
@@ -103,7 +103,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Naf-DA-i3X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1853" y="29"/>
+            <point key="canvasLocation" x="1860" y="22"/>
         </scene>
     </scenes>
     <resources>
