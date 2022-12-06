@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="UY2-x3-ZKM">
             <objects>
-                <viewController storyboardIdentifier="UIViewController-ksF-Ps-CS7" id="OTu-vW-sK9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-ksF-Ps-CS7" id="OTu-vW-sK9" customClass="SignInViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FJy-0W-h36">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="signInWithAppleButton:" destination="OTu-vW-sK9" eventType="editingDidEnd" id="VoL-mt-z4U"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiW-lJ-lek">
                                 <rect key="frame" x="16" y="369" width="360" height="27.333333333333314"/>
@@ -86,6 +89,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QRi-DT-hCu"/>
+                    <connections>
+                        <outlet property="needAccountButton" destination="95U-DV-QLW" id="ZHA-hs-W3o"/>
+                        <outlet property="passwordTextField" destination="VLs-hz-FtH" id="jmE-iY-qp4"/>
+                        <outlet property="signInLabel" destination="zJ9-mB-dEs" id="UAr-sP-MUU"/>
+                        <outlet property="submitButton" destination="OiW-lJ-lek" id="Qzl-Zp-UiR"/>
+                        <outlet property="userNameTextField" destination="bXb-Xh-pih" id="Vtk-dI-lNG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2yA-Am-xgV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

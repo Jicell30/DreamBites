@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Landing Page View Controller-->
         <scene sceneID="Ozt-Mc-2Kn">
             <objects>
-                <viewController id="492-0p-Y8W" customClass="ViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="492-0p-Y8W" customClass="LandingPageViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="PkC-Nv-98k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.84313725490000002" green="0.75294117650000003" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.84156793360000004" green="0.75296133759999995" blue="0.6837380528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Ab6-jw-Ppu" firstAttribute="leading" secondItem="A3e-6h-gqY" secondAttribute="leading" constant="30" id="Flp-yK-2UI"/>
                                     <constraint firstItem="Ab6-jw-Ppu" firstAttribute="top" secondItem="A3e-6h-gqY" secondAttribute="top" constant="27" id="Sxo-4z-3ga"/>
@@ -80,6 +80,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zd8-gi-00F"/>
+                    <connections>
+                        <outlet property="BusinessButton" destination="mR2-TE-Z13" id="fBR-ha-6CW"/>
+                        <outlet property="ConsumerButton" destination="oHV-Nc-GL3" id="a5k-IA-bWO"/>
+                        <outlet property="introMessageTextField" destination="Ab6-jw-Ppu" id="h9b-UQ-Jau"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uCR-0t-vC1" sceneMemberID="firstResponder"/>
             </objects>
