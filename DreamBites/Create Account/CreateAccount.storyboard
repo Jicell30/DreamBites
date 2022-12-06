@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="Cvd-Rk-Dal">
             <objects>
-                <viewController storyboardIdentifier="UIViewController-8XL-qB-uBm" id="KNJ-YB-OZm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-8XL-qB-uBm" id="KNJ-YB-OZm" customClass="CreateAccountViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJb-4m-E80">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,16 +22,8 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kib-qX-4et">
-                                <rect key="frame" x="16" y="507.99999999999994" width="367" height="27.333333333333314"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Submit">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="11"/>
-                                    <color key="baseForegroundColor" red="0.1764705926" green="0.2823529541" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="nVS-6u-hop">
-                                <rect key="frame" x="20" y="226" width="353" height="226"/>
+                                <rect key="frame" x="20" y="225.99999999999997" width="353" height="283.33333333333326"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Entity Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L9J-Bh-cM6">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="34"/>
@@ -57,6 +49,17 @@
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kib-qX-4et">
+                                        <rect key="frame" x="0.0" y="256" width="353" height="27.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Submit">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="11"/>
+                                            <color key="baseForegroundColor" red="0.1764705926" green="0.2823529541" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="submitButton:" destination="KNJ-YB-OZm" eventType="touchUpInside" id="QHY-qp-vdL"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -66,14 +69,18 @@
                             <constraint firstItem="nVS-6u-hop" firstAttribute="top" secondItem="H6C-D3-AoP" secondAttribute="bottom" constant="45.670000000000002" id="0Nw-bn-Lbm"/>
                             <constraint firstItem="BFH-Eu-Gbj" firstAttribute="trailing" secondItem="H6C-D3-AoP" secondAttribute="trailing" constant="126" id="9pE-ZD-DQB"/>
                             <constraint firstItem="nVS-6u-hop" firstAttribute="leading" secondItem="BFH-Eu-Gbj" secondAttribute="leading" constant="20" id="G4E-zc-028"/>
-                            <constraint firstItem="Kib-qX-4et" firstAttribute="leading" secondItem="BFH-Eu-Gbj" secondAttribute="leading" constant="16" id="Lru-dY-TBp"/>
-                            <constraint firstItem="BFH-Eu-Gbj" firstAttribute="trailing" secondItem="Kib-qX-4et" secondAttribute="trailing" constant="10" id="MoO-dY-LsB"/>
-                            <constraint firstItem="Kib-qX-4et" firstAttribute="top" secondItem="nVS-6u-hop" secondAttribute="bottom" constant="56" id="PcN-L5-IX7"/>
                             <constraint firstItem="BFH-Eu-Gbj" firstAttribute="trailing" secondItem="nVS-6u-hop" secondAttribute="trailing" constant="20" id="ZLI-Gh-XLW"/>
                             <constraint firstItem="H6C-D3-AoP" firstAttribute="top" secondItem="BFH-Eu-Gbj" secondAttribute="top" constant="94" id="u3f-DZ-vFc"/>
                             <constraint firstItem="H6C-D3-AoP" firstAttribute="leading" secondItem="BFH-Eu-Gbj" secondAttribute="leading" constant="137" id="vM5-Lk-R01"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EntityNameTextField" destination="L9J-Bh-cM6" id="rQA-yN-jbI"/>
+                        <outlet property="createAccountLabel" destination="H6C-D3-AoP" id="NOa-qq-cIc"/>
+                        <outlet property="emailTextField" destination="mVZ-68-wrc" id="YKZ-yV-78r"/>
+                        <outlet property="passwordTextField" destination="BBB-pp-zy2" id="WYh-wb-QvY"/>
+                        <outlet property="taxIDTextField" destination="MEY-bF-zvD" id="Jzg-9g-RvQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mfb-c5-I8p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
