@@ -24,6 +24,15 @@ class LandingPageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func consumerButtonTapped(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "HomeScreen", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "Home")
+        let sceneDelegate = UIApplication.shared.connectedScenes.first!.delegate as! SceneDelegate
+        sceneDelegate.window!.rootViewController = viewController
+    }
+    
+    
 
     /*
     // MARK: - Navigation

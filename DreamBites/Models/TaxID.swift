@@ -8,7 +8,7 @@
 import Foundation
 
 struct TaxID: Decodable {
-    enum codingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case isValid = "is_valid"
     }
     

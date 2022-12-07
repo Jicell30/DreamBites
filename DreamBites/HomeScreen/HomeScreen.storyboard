@@ -9,7 +9,7 @@
         <!--List-->
         <scene sceneID="QXZ-Hq-fTE">
             <objects>
-                <navigationController id="l0O-6S-ctV" customClass="ListNavigationViewController" customModule="DreamBites" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="l0O-6S-ctV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="List" image="list.bullet.circle" catalog="system" id="BQ2-Xt-UM6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h7p-7o-gME">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -63,7 +63,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="m2L-KX-DyN">
             <objects>
-                <tabBarController id="kJG-Mb-Qot" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Home" id="kJG-Mb-Qot" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QUN-ee-THe">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
