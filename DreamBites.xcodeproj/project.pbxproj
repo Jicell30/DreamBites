@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0A752F293E6468001F8E52 /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A752E293E6468001F8E52 /* LandingPage.storyboard */; };
+		5F46C4B82940D89E00BFD403 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F46C4B72940D89E00BFD403 /* ResultError.swift */; };
 		5F4A9160293684D1008A237B /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A915F293684D1008A237B /* CreateAccount.swift */; };
 		5F4A9162293684F1008A237B /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A9161293684F1008A237B /* CreatePost.swift */; };
 		5F4A91642936850F008A237B /* TaxID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A91632936850F008A237B /* TaxID.swift */; };
 		5F4A916729380069008A237B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F4A916629380069008A237B /* GoogleService-Info.plist */; };
 		5F4A916A2938021C008A237B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5F4A91692938021C008A237B /* FirebaseAuth */; };
 		5F4A916C2938021C008A237B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5F4A916B2938021C008A237B /* FirebaseDatabase */; };
+		5F4A916E293E5A89008A237B /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A916D293E5A89008A237B /* LandingPageViewController.swift */; };
+		5F5FB2A7293F7A0D0007F2DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2A6293F7A0D0007F2DE /* SignInViewController.swift */; };
+		5F5FB2A9293F7E9F0007F2DE /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2A8293F7E9F0007F2DE /* CreatePostViewController.swift */; };
+		5F5FB2AB293F83020007F2DE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2AA293F83020007F2DE /* CreateAccountViewController.swift */; };
+		5F5FB2AD293F987B0007F2DE /* BusinessFeedViewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2AC293F987B0007F2DE /* BusinessFeedViewCollectionViewController.swift */; };
+		5F5FB2AF293F9A8B0007F2DE /* BusinessFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2AE293F9A8B0007F2DE /* BusinessFeedCollectionViewCell.swift */; };
+		5F5FB2B1293FAC2F0007F2DE /* ConsumersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2B0293FAC2F0007F2DE /* ConsumersDetailViewController.swift */; };
+		5F5FB2B3293FBEBE0007F2DE /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2B2293FBEBE0007F2DE /* BusinessViewController.swift */; };
+		5F5FB2BB293FD1E90007F2DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2BA293FD1E90007F2DE /* SettingsViewController.swift */; };
+		5F5FB2BE293FF72D0007F2DE /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5FB2BD293FF72D0007F2DE /* NetworkingController.swift */; };
 		5FB6359F2935210D005572BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6359E2935210D005572BD /* AppDelegate.swift */; };
 		5FB635A12935210D005572BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB635A02935210D005572BD /* SceneDelegate.swift */; };
-		5FB635A62935210D005572BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A42935210D005572BD /* Main.storyboard */; };
 		5FB635A82935210E005572BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A72935210E005572BD /* Assets.xcassets */; };
 		5FB635AB2935210E005572BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635A92935210E005572BD /* LaunchScreen.storyboard */; };
 		5FB635B4293523BB005572BD /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B3293523BB005572BD /* HomeScreen.storyboard */; };
-		5FB635B6293524A3005572BD /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B5293524A3005572BD /* LandingPage.storyboard */; };
 		5FB635B82935253E005572BD /* BusinessView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B72935253E005572BD /* BusinessView.storyboard */; };
 		5FB635BA293525B3005572BD /* BusinessFeedView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */; };
 		5FB635BC29352630005572BD /* ConsumersDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */; };
@@ -30,19 +40,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0A752E293E6468001F8E52 /* LandingPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
+		5F46C4B72940D89E00BFD403 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
 		5F4A915F293684D1008A237B /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		5F4A9161293684F1008A237B /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
 		5F4A91632936850F008A237B /* TaxID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxID.swift; sourceTree = "<group>"; };
 		5F4A916629380069008A237B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F4A916D293E5A89008A237B /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		5F5FB2A6293F7A0D0007F2DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F5FB2A8293F7E9F0007F2DE /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		5F5FB2AA293F83020007F2DE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		5F5FB2AC293F987B0007F2DE /* BusinessFeedViewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessFeedViewCollectionViewController.swift; sourceTree = "<group>"; };
+		5F5FB2AE293F9A8B0007F2DE /* BusinessFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F5FB2B0293FAC2F0007F2DE /* ConsumersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumersDetailViewController.swift; sourceTree = "<group>"; };
+		5F5FB2B2293FBEBE0007F2DE /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
+		5F5FB2BA293FD1E90007F2DE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5F5FB2BD293FF72D0007F2DE /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
 		5FB6359B2935210D005572BD /* DreamBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB6359E2935210D005572BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB635A02935210D005572BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FB635A52935210D005572BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FB635A72935210E005572BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB635AA2935210E005572BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FB635AC2935210E005572BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FB635B3293523BB005572BD /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
-		5FB635B5293524A3005572BD /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
 		5FB635B72935253E005572BD /* BusinessView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessView.storyboard; sourceTree = "<group>"; };
 		5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessFeedView.storyboard; sourceTree = "<group>"; };
 		5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsumersDetailView.storyboard; sourceTree = "<group>"; };
@@ -65,6 +85,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0A752B293E61ED001F8E52 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635B3293523BB005572BD /* HomeScreen.storyboard */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5F0A7530293E6497001F8E52 /* Business Feed View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */,
+				5F5FB2AC293F987B0007F2DE /* BusinessFeedViewCollectionViewController.swift */,
+				5F5FB2AE293F9A8B0007F2DE /* BusinessFeedCollectionViewCell.swift */,
+			);
+			path = "Business Feed View";
+			sourceTree = "<group>";
+		};
+		5F0A7531293E65D3001F8E52 /* Consumers Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */,
+				5F5FB2B0293FAC2F0007F2DE /* ConsumersDetailViewController.swift */,
+			);
+			path = "Consumers Detail View";
+			sourceTree = "<group>";
+		};
+		5F0A7532293E6665001F8E52 /* Create Account */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635BD29352677005572BD /* CreateAccount.storyboard */,
+				5F5FB2AA293F83020007F2DE /* CreateAccountViewController.swift */,
+			);
+			path = "Create Account";
+			sourceTree = "<group>";
+		};
+		5F0A7533293E6818001F8E52 /* Create Post View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635BF293526BE005572BD /* CreatePostView.storyboard */,
+				5F5FB2A8293F7E9F0007F2DE /* CreatePostViewController.swift */,
+			);
+			path = "Create Post View";
+			sourceTree = "<group>";
+		};
+		5F0A7534293E68E6001F8E52 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635C129352713005572BD /* Settings.storyboard */,
+				5F5FB2BA293FD1E90007F2DE /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5F0A7535293E691E001F8E52 /* Sign In View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635C329352766005572BD /* SignInView.storyboard */,
+				5F5FB2A6293F7A0D0007F2DE /* SignInViewController.swift */,
+			);
+			path = "Sign In View";
+			sourceTree = "<group>";
+		};
 		5F4A91652936851D008A237B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +156,24 @@
 				5F4A91632936850F008A237B /* TaxID.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5F5FB2BC293FF6FC0007F2DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5F5FB2BD293FF72D0007F2DE /* NetworkingController.swift */,
+				5F46C4B72940D89E00BFD403 /* ResultError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5F8A1B19293E6008008BE3C9 /* Business View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB635B72935253E005572BD /* BusinessView.storyboard */,
+				5F5FB2B2293FBEBE0007F2DE /* BusinessViewController.swift */,
+			);
+			path = "Business View";
 			sourceTree = "<group>";
 		};
 		5FB635922935210D005572BD = {
@@ -96,18 +197,18 @@
 			isa = PBXGroup;
 			children = (
 				5FB635B22935217F005572BD /* Resources */,
-				5FB635A42935210D005572BD /* Main.storyboard */,
-				5FB635B72935253E005572BD /* BusinessView.storyboard */,
-				5FB635B9293525B3005572BD /* BusinessFeedView.storyboard */,
-				5FB635BB29352630005572BD /* ConsumersDetailView.storyboard */,
-				5FB635BD29352677005572BD /* CreateAccount.storyboard */,
-				5FB635BF293526BE005572BD /* CreatePostView.storyboard */,
-				5FB635C129352713005572BD /* Settings.storyboard */,
-				5FB635C329352766005572BD /* SignInView.storyboard */,
-				5FB635B5293524A3005572BD /* LandingPage.storyboard */,
-				5FB635B3293523BB005572BD /* HomeScreen.storyboard */,
-				5FB635A92935210E005572BD /* LaunchScreen.storyboard */,
+				5F5FB2BC293FF6FC0007F2DE /* Networking */,
 				5F4A91652936851D008A237B /* Models */,
+				5F0A7535293E691E001F8E52 /* Sign In View */,
+				5F0A7534293E68E6001F8E52 /* Settings */,
+				5F0A7533293E6818001F8E52 /* Create Post View */,
+				5F0A7532293E6665001F8E52 /* Create Account */,
+				5F0A7531293E65D3001F8E52 /* Consumers Detail View */,
+				5F0A7530293E6497001F8E52 /* Business Feed View */,
+				5FB635A92935210E005572BD /* LaunchScreen.storyboard */,
+				5F8A1B19293E6008008BE3C9 /* Business View */,
+				5F0A752B293E61ED001F8E52 /* HomeScreen */,
+				5FDB9B0D293E5BDC00452D0E /* Landing Page */,
 			);
 			path = DreamBites;
 			sourceTree = "<group>";
@@ -121,6 +222,15 @@
 				5FB635AC2935210E005572BD /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5FDB9B0D293E5BDC00452D0E /* Landing Page */ = {
+			isa = PBXGroup;
+			children = (
+				5F4A916D293E5A89008A237B /* LandingPageViewController.swift */,
+				5F0A752E293E6468001F8E52 /* LandingPage.storyboard */,
+			);
+			path = "Landing Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,15 +300,14 @@
 			files = (
 				5F4A916729380069008A237B /* GoogleService-Info.plist in Resources */,
 				5FB635AB2935210E005572BD /* LaunchScreen.storyboard in Resources */,
-				5FB635B6293524A3005572BD /* LandingPage.storyboard in Resources */,
 				5FB635C229352713005572BD /* Settings.storyboard in Resources */,
 				5FB635C429352766005572BD /* SignInView.storyboard in Resources */,
 				5FB635BC29352630005572BD /* ConsumersDetailView.storyboard in Resources */,
 				5FB635B4293523BB005572BD /* HomeScreen.storyboard in Resources */,
+				5F0A752F293E6468001F8E52 /* LandingPage.storyboard in Resources */,
 				5FB635BA293525B3005572BD /* BusinessFeedView.storyboard in Resources */,
 				5FB635B82935253E005572BD /* BusinessView.storyboard in Resources */,
 				5FB635A82935210E005572BD /* Assets.xcassets in Resources */,
-				5FB635A62935210D005572BD /* Main.storyboard in Resources */,
 				5FB635BE29352677005572BD /* CreateAccount.storyboard in Resources */,
 				5FB635C0293526BE005572BD /* CreatePostView.storyboard in Resources */,
 			);
@@ -211,9 +320,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5FB2A7293F7A0D0007F2DE /* SignInViewController.swift in Sources */,
 				5FB6359F2935210D005572BD /* AppDelegate.swift in Sources */,
+				5F5FB2A9293F7E9F0007F2DE /* CreatePostViewController.swift in Sources */,
+				5F4A916E293E5A89008A237B /* LandingPageViewController.swift in Sources */,
 				5F4A9162293684F1008A237B /* CreatePost.swift in Sources */,
+				5F5FB2B3293FBEBE0007F2DE /* BusinessViewController.swift in Sources */,
 				5F4A9160293684D1008A237B /* CreateAccount.swift in Sources */,
+				5F5FB2BE293FF72D0007F2DE /* NetworkingController.swift in Sources */,
+				5F5FB2AF293F9A8B0007F2DE /* BusinessFeedCollectionViewCell.swift in Sources */,
+				5F5FB2B1293FAC2F0007F2DE /* ConsumersDetailViewController.swift in Sources */,
+				5F5FB2AB293F83020007F2DE /* CreateAccountViewController.swift in Sources */,
+				5F46C4B82940D89E00BFD403 /* ResultError.swift in Sources */,
+				5F5FB2BB293FD1E90007F2DE /* SettingsViewController.swift in Sources */,
+				5F5FB2AD293F987B0007F2DE /* BusinessFeedViewCollectionViewController.swift in Sources */,
 				5F4A91642936850F008A237B /* TaxID.swift in Sources */,
 				5FB635A12935210D005572BD /* SceneDelegate.swift in Sources */,
 			);
@@ -222,14 +342,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5FB635A42935210D005572BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FB635A52935210D005572BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5FB635A92935210E005572BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,8 +478,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DreamBites/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LandingPage;
+				INFOPLIST_KEY_UIMainStoryboardFile = LandingPage;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,8 +506,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DreamBites/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LandingPage;
+				INFOPLIST_KEY_UIMainStoryboardFile = LandingPage;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

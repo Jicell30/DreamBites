@@ -11,11 +11,19 @@ import FirebaseCore
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        NetworkController.fechTaxID(for: "74-1989366") { result in
+            switch result {
+            case.success(let taxID):
+                print(taxID.isValid)
+            case.failure(let error):
+                print(error)
+            }
+        }
         return true
     }
 
